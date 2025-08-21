@@ -118,7 +118,9 @@ print(f"Âge prédit : {predicted_age} ans")
   Epoch 10/10
   504/504 [==============================] - 378s 751ms/step - loss: 0.0112 - mae: 0.0797 - val_loss: 0.0112 - val_mae: 0.0794
   ```
-  - **Visualization**: Loss and MAE curves in `curve.png`.
+  - **Visualization**: Loss and MAE curves: 
+    
+  ![Result](curve.png)
   - **Test Output**: Predicted age in years (e.g., "Âge prédit : 30 ans").
 - **Part 2 (Caffe)**: Predicted age range (e.g., `(25-32)`) with confidence.
 - **Capture**:
